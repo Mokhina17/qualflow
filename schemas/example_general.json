@@ -1,0 +1,32 @@
+{
+  "name": "General Qualitative",
+  "description": "Flexible starting schema for most interview studies",
+  "categories": [
+    {
+      "id": "main_theme",
+      "label": "Main Theme",
+      "type": "text"
+    },
+    {
+      "id": "sub_theme",
+      "label": "Sub-theme",
+      "type": "text"
+    },
+    {
+      "id": "sentiment",
+      "label": "Sentiment",
+      "type": "select",
+      "options": ["Positive", "Neutral", "Negative", "Mixed", "Unclear"]
+    },
+    {
+      "id": "key_quote",
+      "label": "Key Quote",
+      "type": "text"
+    },
+    {
+      "id": "memo",
+      "label": "Researcher Memo",
+      "type": "text"
+    }
+  ]
+}

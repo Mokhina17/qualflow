@@ -1,0 +1,46 @@
+{
+  "name": "Mintzberg × AI Delegation",
+  "description": "Balance of AI support vs automation across managerial role families",
+  "categories": [
+    {
+      "id": "role_family",
+      "label": "Role Family",
+      "type": "select",
+      "options": ["Informational", "Decisional", "Interpersonal", "Unclear"]
+    },
+    {
+      "id": "ai_use_mode",
+      "label": "AI Use Mode",
+      "type": "select",
+      "options": [ "H1 - No Collaboration Needed",
+        "H2 - Limited Collaboration Needed",
+        "H3 - Moderate Collaboration Needed",
+        "H4 - Considerable Collaboration Needed",
+        "H5 - Essential Collaboration Needed",
+        "No AI Use",
+        "Unclear"]
+    },
+    {
+      "id": "willingness",
+      "label": "Willingness (1-5)",
+      "type": "scale",
+      "min": 1,
+      "max": 5
+    },
+    {
+      "id": "reasons",
+      "label": "Main Reasons",
+      "type": "list"
+    },
+    {
+      "id": "key_quote",
+      "label": "Key Quote",
+      "type": "text"
+    },
+    {
+      "id": "memo",
+      "label": "Memo",
+      "type": "text"
+    }
+  ]
+}
